@@ -1,0 +1,28 @@
+depsversion = "0.0.0"
+
+name = "game-relay/client-c"
+version = "0.0.0"
+
+[[dependencies]]
+name = 'game-relay/serialize-c'
+version = "*"
+
+[[dependencies]]
+name = 'piot/datagram-transport-c'
+version = "*"
+
+[[dependencies]]
+name = 'piot/monotonic-time-c'
+version = "*"
+
+[[dependencies]]
+name = 'piot/discoid-c'
+version = "*"
+
+[[development]]
+name = 'piot/udp-client-c'
+version = "*"
+
+[[development]]
+name = 'piot/guise-client-c'
+version = "*"
